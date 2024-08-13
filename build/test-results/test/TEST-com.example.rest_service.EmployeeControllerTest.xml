@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.rest_service.EmployeeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-24T02:54:18" hostname="wendydeMacBook-Air.local" time="0.196">
+  <properties/>
+  <testcase name="getAllEmployees_success()" classname="com.example.rest_service.EmployeeControllerTest" time="0.196"/>
+  <system-out><![CDATA[12:54:16.878 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.rest_service.EmployeeControllerTest]: EmployeeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:54:16.993 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.rest_service.RestServiceApplication for test class com.example.rest_service.EmployeeControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-07-24T12:54:17.267+10:00  INFO 38539 --- [rest-service] [    Test worker] c.e.rest_service.EmployeeControllerTest  : Starting EmployeeControllerTest using Java 17.0.8 with PID 38539 (started by wendy in /Users/wendy/Downloads/rest-service)
+2024-07-24T12:54:17.269+10:00  INFO 38539 --- [rest-service] [    Test worker] c.e.rest_service.EmployeeControllerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-07-24T12:54:18.749+10:00  INFO 38539 --- [rest-service] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-24T12:54:18.750+10:00  INFO 38539 --- [rest-service] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-24T12:54:18.753+10:00  INFO 38539 --- [rest-service] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-24T12:54:18.781+10:00  INFO 38539 --- [rest-service] [    Test worker] c.e.rest_service.EmployeeControllerTest  : Started EmployeeControllerTest in 1.735 seconds (process running for 2.49)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
